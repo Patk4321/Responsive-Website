@@ -21,7 +21,7 @@
     min-width: 80%;
     grid-column-gap: 0vw;
     grid-row-gap: 0vw; 
-    aspect-ratio: auto;
+    /* aspect-ratio: auto; */
     object-fit: fill;
     background-color: #f2e3d5; 
     border: 1px solid #000; 
@@ -83,7 +83,7 @@
     justify-content: center;
     display: flex;
     align-items: flex-start;
-    min-height: 100vw;
+    min-height: 115vh;
     
 }
 
@@ -100,7 +100,7 @@
 }
 
 .main_aside {
-    position: fixed;
+    /* position: fixed; */
     color: #f2e3d5;
     text-decoration: none;
     padding: 10px 20px;
@@ -109,7 +109,7 @@
     text-align: center;
     font-size: 1.5rem;
     
-    transform: translate(20em, -10em);
+    transform: translate(23em, -10em);
 }
 
 .resume_button {
@@ -130,7 +130,7 @@
     padding: 10px 20px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1400px) {
     .hero_text {
         transform: translate(0);
         font-size: 1.2rem;
@@ -157,6 +157,6 @@
 }
 @media (min-width: 1000px) {
 .div-block {
-    min-height: 10em;
+    min-height: 115vh;
 }
 }
