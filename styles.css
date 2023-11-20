@@ -160,3 +160,15 @@
     min-height: 115vh;
 }
 }
+
+@media (min-width: 1500px) {
+    .div-block {
+        min-height: 70vh;
+    }
+    .main_aside {
+        transform: translate(36vw, -10em);
+    }
+    .resume_button {
+        transform: translate(45vw, -10em);
+    }
+    }
