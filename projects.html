@@ -5,13 +5,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link id = "mainStylesheet" rel="stylesheet" type="text/css" href="css/styles.css" />
 
     <title>Projects Page</title>
 </head>
 
 <body class= "body">
 <!--data-animation="default" data-collapse="medium" data-duration="400" data-easinq="ease" role="banner"-->
+    <button class="button" onclick="toggleStylesheet()" id="themeButton">Swap Theme</button>
     <div class="navbar" >
         <div class="cream_bubble">
             <a href="index.html" class="nav-brand"><img src="Logo.png" loading="lazy" alt="" class="logo_image"></a>
@@ -49,5 +50,6 @@
             <img src="Projects.png" loading="lazy" sizes="(max-width: 2000px) 72vw, 1140px" alt="" class="home_image">
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
