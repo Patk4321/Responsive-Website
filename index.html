@@ -5,16 +5,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link id = "mainStylesheet" rel="stylesheet" type="text/css" href="css/styles.css" />
 
     <title>Responsive Webpage Project</title>
 </head>
 
 <body class= "body">
 <!--data-animation="default" data-collapse="medium" data-duration="400" data-easinq="ease" role="banner"-->
+
+    <button class="button" onclick="toggleStylesheet()" id="themeButton">Swap Theme</button>
+
     <div class="navbar" >
         <div class="cream_bubble">
             <a href="index.html" class="nav-brand"><img src="Logo.png" loading="lazy" alt="" class="logo_image"></a>
+            
             <nav role= "navigation" class="nav-menu">
                 <a href="index.html" class="nav-link home_link">Home</a>
                 <a href="education.html" class="nav-link">Education</a>
@@ -46,5 +50,6 @@
         </div>
     </section>
 <!--https://docs.google.com/document/d/1SNN72Kbtqjr8AZ-Fy6bvsbGl_LnUNpOulyQ4heA1_zE/edit?usp=sharing-->
+<script src="script.js"></script>
 </body>
 </html>
