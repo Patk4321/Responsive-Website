@@ -3,12 +3,12 @@
 
 const body = document.body;
 const navbar = document.navbar;
-const cream_bubble = document.cream_bubble
+const cream_bubble = document.cream_bubble;
+const stylesheet = document.getElementById('mainStylesheet');
 
 
 
 function toggleStylesheet() {
-    const stylesheet = document.getElementById('mainStylesheet');
     
     // Check the current stylesheet and toggle to the other one
     if (stylesheet.href.includes('css/styles.css')) {
